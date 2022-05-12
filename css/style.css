@@ -213,30 +213,17 @@ img {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.title-hidden,
-.modal-input-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
 
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.features-list {
+.features__list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
 }
-.features-item {
+.features__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 }
-.features-box {
+.features__box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -246,7 +233,7 @@ img {
   background-color: #f5f4fa;
   border-radius: 4px;
 }
-.features-title-secondary {
+.features__title {
   margin-top: var(--typical-margin--);
   margin-bottom: 10px;
 
@@ -257,7 +244,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.features-text {
+.features__text {
   color: var(--primary-text-color--);
   font-weight: 400;
   font-size: 14px;
