@@ -52,7 +52,7 @@
   display: flex;
   justify-content: center;
 
-  &:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 10px;
   }
 

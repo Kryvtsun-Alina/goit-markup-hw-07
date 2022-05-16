@@ -438,7 +438,7 @@ img {
 .features__list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
+  margin-left: -30px;
 }
 .features__item {
   flex-basis: calc(25% - 30px);
@@ -554,7 +554,7 @@ img {
   display: flex;
   justify-content: center;
 }
-.soc-list:not(:last-child) {
+.soc-list__item:not(:last-child) {
   margin-right: 10px;
 }
 .soc-list__link {
